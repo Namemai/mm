@@ -434,8 +434,8 @@ def help():
                   "║☯➸ " + key + "Speed/Sp\n" + \
                   "║☯➸ " + key + "Respontime\n" + \
                   "║☯➸ " + key + "Sepinya\n" + \
-                  "║☯➸ " + key + "Joinall\n" + \
-                  "║☯➸ " + key + "Byeall\n" + \
+                  "║☯➸ " + key + "ON\n" + \
+                  "║☯➸ " + key + "OFF\n" + \
                   "║☯➸ " + key + "Bye me\n" + \
                   "║☯➸ " + key + "Leave「Namagrup」\n" + \
                   "║☯➸ " + key + "Ginfo\n" + \
