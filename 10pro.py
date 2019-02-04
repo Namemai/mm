@@ -3128,7 +3128,7 @@ def bot(op):
                                 except:
                                     pass
     
-                        elif cmd == "joinall":
+                        elif cmd == "ON":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -3151,7 +3151,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ky.updateGroup(G)
 
-                        elif cmd == "byeall":
+                        elif cmd == "OFF":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
