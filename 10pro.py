@@ -16,7 +16,7 @@ cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient("lovepidchaya2@gmail.com","love451446")
+ki = LineClient("")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -25,7 +25,7 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #Amid = ki.getProfile().mid
 #responsename2 = ki.getProfile().displayName
 
-kk = LineClient("lovepidchaya3@gmail.com","love451446")
+kk = LineClient("")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -34,7 +34,7 @@ kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 #Bmid = ki.getProfile().mid
 #responsename3 = ki.getProfile().displayName
 
-kc = LineClient("lovepidchaya4@gmail.com","love451446")
+kc = LineClient("")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -43,7 +43,7 @@ kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 #Cmid = kc.getProfile().mid
 #responsename4 = kc.getProfile().displayName
 
-km = LineClient("lovepidchaya4@gmail.com","love451446")
+km = LineClient("")
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -52,7 +52,7 @@ km.log("Channel Access Token : " + str(channel4.channelAccessToken))
 #Dmid = km.getProfile().mid
 #responsename5 = km.getProfile().displayName
 
-kb = LineClient("lovepidchaya5@gmail.com","love451446")
+kb = LineClient("")
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -61,7 +61,7 @@ kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
 #Emid = kb.getProfile().mid
 #responsename6 = kb.getProfile().displayName
 
-kn = LineClient("lovepidchaya6@gmail.com","love451446")
+kn = LineClient("")
 kn.log("Auth Token : " + str(kn.authToken))
 channel6 = LineChannel(kn)
 kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
@@ -70,7 +70,7 @@ kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
 #Fmid = kb.getProfile().mid
 #responsename7 = kn.getProfile().displayName
 
-ko = LineClient("lovepidchaya7@gmail.com","love451446")
+ko = LineClient("")
 ko.log("Auth Token : " + str(ko.authToken))
 channel7 = LineChannel(ko)
 ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
@@ -79,7 +79,7 @@ ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
 #Gmid = ko.getProfile().mid
 #responsename8 = kb.getProfile().displayName
 
-kw = LineClient("lovepidchaya8@gmail.com","love451446")
+kw = LineClient("")
 kw.log("Auth Token : " + str(kw.authToken))
 channel8 = LineChannel(kw)
 kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
@@ -88,7 +88,7 @@ kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
 #Hmid = kw.getProfile().mid
 #responsename9 = kw.getProfile().displayName
 
-ke = LineClient("lovepidchaya9@gmail.com","love451446")
+ke = LineClient("")
 ke.log("Auth Token : " + str(ke.authToken))
 channel9 = LineChannel(ke)
 ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
@@ -97,7 +97,7 @@ ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
 #Imid = ke.getProfile().mid
 #responsename10 = ke.getProfile().displayName
 
-ky = LineClient("lovepidchaya10@gmail.com","love451446")
+ky = LineClient("")
 ky.log("Auth Token : " + str(ky.authToken))
 channel10 = LineChannel(ky)
 ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
@@ -106,7 +106,7 @@ ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
 #Jmid = ky.getProfile().mid
 #responsename11 = ky.getProfile().displayName
 
-sw = LineClient("lovepidchaya11@gmail.com","love451446")
+sw = LineClient("")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -115,7 +115,7 @@ sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 #Zmid = sw.getProfile().mid
 #responsename12 = sw.getProfile().displayName
 
-sx = LineClient("lovepidchaya12@gmail.com","love451446")
+sx = LineClient("")
 sx.log("Auth Token : " + str(sx.authToken))
 channel12 = LineChannel(sx)
 sx.log("Channel Access Token : " + str(channel12.channelAccessToken))
@@ -124,7 +124,7 @@ sx.log("Channel Access Token : " + str(channel12.channelAccessToken))
 #Xmid = sx.getProfile().mid
 #responsename13 = sx.getProfile().displayName
 
-js = LineClient("lovepidchaya13@gmail.com","love451446")
+js = LineClient("")
 js.log("Auth Token : " + str(js.authToken))
 channel13 = LineChannel(js)
 js.log("Channel Access Token : " + str(channel13.channelAccessToken))
