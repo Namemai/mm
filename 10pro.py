@@ -155,8 +155,8 @@ Jmid = ky.getProfile().mid
 Zmid = sw.getProfile().mid
 Xmid = sx.getProfile().mid
 JSmid = js.getProfile().mid
-KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky]
-ABC = [ki,kk,kc,km,kb,kn,ko,kw,ke,ky]
+KAC = [cl,ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw,sx,js]
+ABC = [ki,kk,kc,km,kb,kn,ko,kw,ke,ky,sw,sx,js]
 Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Zmid,Xmid,JSmid]
 Dpk = admin + staff
 
@@ -179,6 +179,9 @@ responsename7 = ko.getProfile().displayName
 responsename8 = kw.getProfile().displayName
 responsename9 = ke.getProfile().displayName
 responsename10 = ky.getProfile().displayName
+responsename11 = sw.getProfile().displayName
+responsename12 = sx.getProfile().displayName
+responsename13 = js.getProfile().displayName
 
 settings = {
     "Picture":False,
@@ -246,7 +249,7 @@ wait = {
     "Respontag":"Apaan tag2 kalo penting VC aja langsung",
     "welcome":"Selamat datang & semoga betah",
     "comment":"Like like & like ",
-    "message":"Terimakasih sudah add saya\nSELFBOT SONTOLOYO BOTS\nline.me/ti.p/~gerhanaselatan",
+    "message":"Terimakasih sudah add saya\nSELFBOT ꧁❈§{MAI}§❈꧂\nline.me/ti.p/~gerhanaselatan",
     }
 
 read = {
@@ -415,7 +418,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔══[ MENU BOTS ]\n"+\
+                  "╔══[ ꧁❈§{MAI}§❈꧂ ]\n"+\
                   "║☯➸ " + key + "Me\n" + \
                   "║☯➸ " + key + "Mid「@」\n" + \
                   "║☯➸ " + key + "Info「@」\n" + \
@@ -540,14 +543,14 @@ def help():
                   "║☯➸ " + key + "Listprotect\n" + \
                   "╚══[     SONTOLOYO BOTS     ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika sudah Slesai anu...\n"
+                  "\n ꧁❈§{MAI}§❈꧂.\n"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "╔══[ SONTO__LOYO ]\n"+\
+                  "╔══[ ꧁❈§{MAI}§❈꧂ ]\n"+\
                   "║☯➸ " + key + "Blc\n" + \
                   "║☯➸ " + key + "Ban:on\n" + \
                   "║☯➸ " + key + "Unban:on\n" + \
@@ -577,9 +580,9 @@ def helpbot():
                   "║☯➸ " + key + "Myname:「Nama」\n" + \
                   "║☯➸ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "║☯➸ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╚══[     SONTOLOYO_BOTS_SADIS      ]\n" + \
+                  "╚══[     ꧁❈§{MAI}§❈꧂      ]\n" + \
                   "▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬\n" + \
-                  "\nKetik「 Refresh 」jika sudah slesai anu...\n"
+                  "\n ꧁❈§{MAI}§❈꧂ \n"
     return helpMessage1
 
 def bot(op):
@@ -3191,7 +3194,7 @@ def bot(op):
                                         ky.leaveGroup(i)
                                         cl.sendMessage(to,"Berhasil keluar dari grup " +h)
 
-                        elif cmd == "assist1":
+                        elif cmd == "a1":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3204,7 +3207,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "assist2":
+                        elif cmd == "a2":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3217,7 +3220,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kk.updateGroup(G)
 
-                        elif cmd == "assist3":
+                        elif cmd == "a3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3230,7 +3233,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kc.updateGroup(G)
                                 
-                        elif cmd == "assist4":
+                        elif cmd == "a4":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3243,7 +3246,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 km.updateGroup(G)
 
-                        elif cmd == "assist5":
+                        elif cmd == "a5":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3256,7 +3259,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kb.updateGroup(G)
 
-                        elif cmd == "assist6":
+                        elif cmd == "a6":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3269,7 +3272,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kn.updateGroup(G)
                                 
-                        elif cmd == "assist7":
+                        elif cmd == "a7":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3282,7 +3285,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ko.updateGroup(G)
 
-                        elif cmd == "assist8":
+                        elif cmd == "a8":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3295,7 +3298,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kw.updateGroup(G)
 
-                        elif cmd == "assist9":
+                        elif cmd == "a9":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3308,7 +3311,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ke.updateGroup(G)
                                 
-                        elif cmd == "assist10":
+                        elif cmd == "a10":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3321,7 +3324,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ky.updateGroup(G)
 
-                        elif cmd == "ghost join":
+                        elif cmd == "มา3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -3336,7 +3339,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 js.updateGroup(G)
 
-                        elif cmd == "ghost bye":
+                        elif cmd == "ออก3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 sw.leaveGroup(msg.to)
