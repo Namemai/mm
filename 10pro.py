@@ -15,132 +15,136 @@ cl = LineClient("")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
+lineProfile = cl.getProfile()
+lineSettings = cl.getSettings()
+mid = cl.getProfile().mid
+responsename2 = cl.getProfile().displayName
 
 ki = LineClient("")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
-#lineProfile = ki.getProfile()
-#lineSettings = ki.getSettings()
-#Amid = ki.getProfile().mid
-#responsename2 = ki.getProfile().displayName
+lineProfile = ki.getProfile()
+lineSettings = ki.getSettings()
+Amid = ki.getProfile().mid
+responsename2 = ki.getProfile().displayName
 
 kk = LineClient("")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
-#lineProfile = kk.getProfile()
-#lineSettings = kk.getSettings()
-#Bmid = ki.getProfile().mid
-#responsename3 = ki.getProfile().displayName
+lineProfile = kk.getProfile()
+lineSettings = kk.getSettings()
+Bmid = ki.getProfile().mid
+responsename3 = ki.getProfile().displayName
 
 kc = LineClient("")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
-#lineProfile = kc.getProfile()
-#lineSettings = kc.getSettings()
-#Cmid = kc.getProfile().mid
-#responsename4 = kc.getProfile().displayName
+lineProfile = kc.getProfile()
+lineSettings = kc.getSettings()
+Cmid = kc.getProfile().mid
+responsename4 = kc.getProfile().displayName
 
 km = LineClient("")
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
-#lineProfile = km.getProfile()
-#lineSettings = km.getSettings()
-#Dmid = km.getProfile().mid
-#responsename5 = km.getProfile().displayName
+lineProfile = km.getProfile()
+lineSettings = km.getSettings()
+Dmid = km.getProfile().mid
+responsename5 = km.getProfile().displayName
 
 kb = LineClient("")
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
-#lineProfile = kb.getProfile()
-#lineSettings = kb.getSettings()
-#Emid = kb.getProfile().mid
-#responsename6 = kb.getProfile().displayName
+lineProfile = kb.getProfile()
+lineSettings = kb.getSettings()
+Emid = kb.getProfile().mid
+responsename6 = kb.getProfile().displayName
 
 kn = LineClient("")
 kn.log("Auth Token : " + str(kn.authToken))
 channel6 = LineChannel(kn)
 kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
-#lineProfile = kn.getProfile()
-#lineSettings = kn.getSettings()
-#Fmid = kb.getProfile().mid
-#responsename7 = kn.getProfile().displayName
+lineProfile = kn.getProfile()
+lineSettings = kn.getSettings()
+Fmid = kb.getProfile().mid
+responsename7 = kn.getProfile().displayName
 
 ko = LineClient("")
 ko.log("Auth Token : " + str(ko.authToken))
 channel7 = LineChannel(ko)
 ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
-#lineProfile = ko.getProfile()
-#lineSettings = ko.getSettings()
-#Gmid = ko.getProfile().mid
-#responsename8 = kb.getProfile().displayName
+lineProfile = ko.getProfile()
+lineSettings = ko.getSettings()
+Gmid = ko.getProfile().mid
+responsename8 = kb.getProfile().displayName
 
 kw = LineClient("")
 kw.log("Auth Token : " + str(kw.authToken))
 channel8 = LineChannel(kw)
 kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
-#lineProfile = kw.getProfile()
-#lineSettings = kw.getSettings()
-#Hmid = kw.getProfile().mid
-#responsename9 = kw.getProfile().displayName
+lineProfile = kw.getProfile()
+lineSettings = kw.getSettings()
+Hmid = kw.getProfile().mid
+responsename9 = kw.getProfile().displayName
 
 ke = LineClient("")
 ke.log("Auth Token : " + str(ke.authToken))
 channel9 = LineChannel(ke)
 ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
-#lineProfile = ke.getProfile()
-#lineSettings = ke.getSettings()
-#Imid = ke.getProfile().mid
-#responsename10 = ke.getProfile().displayName
+lineProfile = ke.getProfile()
+lineSettings = ke.getSettings()
+Imid = ke.getProfile().mid
+responsename10 = ke.getProfile().displayName
 
 ky = LineClient("")
 ky.log("Auth Token : " + str(ky.authToken))
 channel10 = LineChannel(ky)
 ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
-#lineProfile = ky.getProfile()
-#lineSettings = ky.getSettings()
-#Jmid = ky.getProfile().mid
-#responsename11 = ky.getProfile().displayName
+lineProfile = ky.getProfile()
+lineSettings = ky.getSettings()
+Jmid = ky.getProfile().mid
+responsename11 = ky.getProfile().displayName
 
 sw = LineClient("")
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
-#lineProfile = sw.getProfile()
-#lineSettings = sw.getSettings()
-#Zmid = sw.getProfile().mid
-#responsename12 = sw.getProfile().displayName
+lineProfile = sw.getProfile()
+lineSettings = sw.getSettings()
+Zmid = sw.getProfile().mid
+responsename12 = sw.getProfile().displayName
 
 sx = LineClient("")
 sx.log("Auth Token : " + str(sx.authToken))
 channel12 = LineChannel(sx)
 sx.log("Channel Access Token : " + str(channel12.channelAccessToken))
-#lineProfile = sx.getProfile()
-#lineSettings = sx.getSettings()
-#Xmid = sx.getProfile().mid
-#responsename13 = sx.getProfile().displayName
+lineProfile = sx.getProfile()
+lineSettings = sx.getSettings()
+Xmid = sx.getProfile().mid
+responsename13 = sx.getProfile().displayName
 
 js = LineClient("")
 js.log("Auth Token : " + str(js.authToken))
 channel13 = LineChannel(js)
 js.log("Channel Access Token : " + str(channel13.channelAccessToken))
-#lineProfile = js.getProfile()
-#lineSettings = js.getSettings()
-#JSmid = js.getProfile().mid
-#responsename14 = js.getProfile().displayName
+lineProfile = js.getProfile()
+lineSettings = js.getSettings()
+JSmid = js.getProfile().mid
+responsename14 = js.getProfile().displayName
 
 print("---LOGIN SUCCES---")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u06090b28c2d014e95a0352cb0db47248"]
-owner = ["u06090b28c2d014e95a0352cb0db47248"]
-admin = ["u06090b28c2d014e95a0352cb0db47248"]
-staff = ["u06090b28c2d014e95a0352cb0db47248"]
+creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -423,7 +427,7 @@ def help():
                   "║☯➸ " + key + "Mid「@」\n" + \
                   "║☯➸ " + key + "Info「@」\n" + \
                   "║☯➸ " + key + "Nk「@」\n" + \
-                  "║☯➸ " + key + "Kick1「@」\n" + \
+                  "║☯➸ " + key + "Kick「@」\n" + \
                   "║☯➸ " + key + "Mybot\n" + \
                   "║☯➸ " + key + "Status\n" + \
                   "║☯➸ " + key + "About\n" + \
@@ -3092,7 +3096,7 @@ def bot(op):
                                     mf += str(a) + ". " +cl.getGroup(group).name + "\n"
                                 cl.sendMessage(msg.to,"「◄━━◈⟦Famz_Protection⟧◈━━►」\n\n「✭」 PROTECT URL :\n"+ma+"\n「✭」 PROTECT KICK :\n"+mb+"\n「✭」 PROTECT JOIN :\n"+md+"\n「✭」 PROTECT CANCEL:\n"+mc+"\n「✭」 PROTECT INVITE:\n"+me+"\n「✭」 PROTECT ANTIJS :\n"+mf+"\nTotal「%s」Grup diamankan" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel)+len(protectinvite)+len(protectantijs))))
 
-                        elif cmd == "respon":
+                        elif cmd == "b":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ki.sendMessage(msg.to,responsename1)
@@ -3346,7 +3350,7 @@ def bot(op):
                                 sx.leaveGroup(msg.to)
                                 js.leaveGroup(msg.to)
 
-                        elif cmd == "sprespon":
+                        elif cmd == "sp.":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 get_profile_time_start = time.time()
@@ -4068,7 +4072,7 @@ def bot(op):
                                        except:
                                            pass
 
-                        elif ("Kick1 " in msg.text):
+                        elif ("Kick " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
