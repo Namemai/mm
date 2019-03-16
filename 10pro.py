@@ -11,7 +11,7 @@ from googletrans import Translator
 import youtube_dl
 #TEGUH S- GUNAKAN BOTS DENGAN BIJAK
 #=============
-cl = LineClient("")
+cl = LineClient()
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -20,7 +20,7 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename2 = cl.getProfile().displayName
 
-ki = LineClient("")
+ki = LineClient()
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -29,7 +29,7 @@ lineSettings = ki.getSettings()
 Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
-kk = LineClient("")
+kk = LineClient()
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -38,7 +38,7 @@ lineSettings = kk.getSettings()
 Bmid = ki.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
-kc = LineClient("")
+kc = LineClient()
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -47,7 +47,7 @@ lineSettings = kc.getSettings()
 Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
-km = LineClient("")
+km = LineClient()
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -65,7 +65,7 @@ lineSettings = kb.getSettings()
 Emid = kb.getProfile().mid
 responsename6 = kb.getProfile().displayName
 
-kn = LineClient("")
+kn = LineClient()
 kn.log("Auth Token : " + str(kn.authToken))
 channel6 = LineChannel(kn)
 kn.log("Channel Access Token : " + str(channel6.channelAccessToken))
@@ -74,7 +74,7 @@ lineSettings = kn.getSettings()
 Fmid = kb.getProfile().mid
 responsename7 = kn.getProfile().displayName
 
-ko = LineClient("")
+ko = LineClient()
 ko.log("Auth Token : " + str(ko.authToken))
 channel7 = LineChannel(ko)
 ko.log("Channel Access Token : " + str(channel7.channelAccessToken))
@@ -83,7 +83,7 @@ lineSettings = ko.getSettings()
 Gmid = ko.getProfile().mid
 responsename8 = kb.getProfile().displayName
 
-kw = LineClient("")
+kw = LineClient()
 kw.log("Auth Token : " + str(kw.authToken))
 channel8 = LineChannel(kw)
 kw.log("Channel Access Token : " + str(channel8.channelAccessToken))
@@ -92,7 +92,7 @@ lineSettings = kw.getSettings()
 Hmid = kw.getProfile().mid
 responsename9 = kw.getProfile().displayName
 
-ke = LineClient("")
+ke = LineClient()
 ke.log("Auth Token : " + str(ke.authToken))
 channel9 = LineChannel(ke)
 ke.log("Channel Access Token : " + str(channel9.channelAccessToken))
@@ -101,7 +101,7 @@ lineSettings = ke.getSettings()
 Imid = ke.getProfile().mid
 responsename10 = ke.getProfile().displayName
 
-ky = LineClient("")
+ky = LineClient()
 ky.log("Auth Token : " + str(ky.authToken))
 channel10 = LineChannel(ky)
 ky.log("Channel Access Token : " + str(channel10.channelAccessToken))
@@ -110,7 +110,7 @@ lineSettings = ky.getSettings()
 Jmid = ky.getProfile().mid
 responsename11 = ky.getProfile().displayName
 
-sw = LineClient("")
+sw = LineClient()
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -119,7 +119,7 @@ lineSettings = sw.getSettings()
 Zmid = sw.getProfile().mid
 responsename12 = sw.getProfile().displayName
 
-sx = LineClient("")
+sx = LineClient()
 sx.log("Auth Token : " + str(sx.authToken))
 channel12 = LineChannel(sx)
 sx.log("Channel Access Token : " + str(channel12.channelAccessToken))
@@ -128,7 +128,7 @@ lineSettings = sx.getSettings()
 Xmid = sx.getProfile().mid
 responsename13 = sx.getProfile().displayName
 
-js = LineClient("")
+js = LineClient()
 js.log("Auth Token : " + str(js.authToken))
 channel13 = LineChannel(js)
 js.log("Channel Access Token : " + str(channel13.channelAccessToken))
@@ -253,7 +253,7 @@ wait = {
     "Respontag":"Apaan tag2 kalo penting VC aja langsung",
     "welcome":"Selamat datang & semoga betah",
     "comment":"Like like & like ",
-    "message":"Terimakasih sudah add saya\nSELFBOT ꧁❈§{MAI}§❈꧂\nline.me/ti.p/~gerhanaselatan",
+    "message":"Terimakasih sudah add saya\n ꧁❈§{MAI}§❈꧂\nline.me/ti.p/~mai06555mai",
     }
 
 read = {
